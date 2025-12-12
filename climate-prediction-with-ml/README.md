@@ -1,22 +1,12 @@
-# Climate Prediction with Machine Learning
+# climate-prediction
 
-Capstone project for [Machine Learning Zoomcamp by DataTalksClub](https://github.com/DataTalksClub/machine-learning-zoomcamp).
+<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
+    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
+</a>
 
+Climate prediction using machine learning
 
-
-## Linear Regression
-Simple linear regression is a fundamental statistical method used to explore the relationship between two variables: one independent variable (predictor) and one dependent variable (outcome). The goal of simple linear regression is to model this relationship by fitting a straight line (the regression line) through the data points, which best represents the relationship between the variables.
-
-
-## Logistic Regression
-
-Logistic regression is a statistical method used to model the relationship between a set of independent variables and a binary dependent variable, where the outcome is typically coded as 0 or 1 (e.g., no/yes, false/true). Unlike linear regression, which predicts a continuous outcome, logistic regression predicts the probability of a particular class or event occurring.
-
-The logistic regression model uses the logistic function to transform the linear combination of the independent variables into a probability that ranges between 0 and 1. This makes it particularly useful for classification problems, such as determining whether a customer will make a purchase, if a patient has a certain disease, or if a student will pass a course.
-
-## Directory structure
-
-The directory structure of your new project will look something like this (depending on the settings that you choose):
+## Project Organization
 
 ```
 ├── LICENSE            <- Open-source license if one is chosen
@@ -37,7 +27,7 @@ The directory structure of your new project will look something like this (depen
 │                         `1.0-jqp-initial-data-exploration`.
 │
 ├── pyproject.toml     <- Project configuration file with package metadata for 
-│                         {{ cookiecutter.module_name }} and configuration for tools like black
+│                         climate_prediction and configuration for tools like black
 │
 ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
 │
@@ -49,9 +39,9 @@ The directory structure of your new project will look something like this (depen
 │
 ├── setup.cfg          <- Configuration file for flake8
 │
-└── {{ cookiecutter.module_name }}   <- Source code for use in this project.
+└── climate_prediction   <- Source code for use in this project.
     │
-    ├── __init__.py             <- Makes {{ cookiecutter.module_name }} a Python module
+    ├── __init__.py             <- Makes climate_prediction a Python module
     │
     ├── config.py               <- Store useful variables and configuration
     │
@@ -64,12 +54,8 @@ The directory structure of your new project will look something like this (depen
     │   ├── predict.py          <- Code to run model inference with trained models          
     │   └── train.py            <- Code to train models
     │
-    └── plots.py                <- Code to create visualizations   
+    └── plots.py                <- Code to create visualizations
 ```
 
+--------
 
-
-
-# References
-
-* Coursera - Predicting Extreme Climate Behavior with Machine Learning
