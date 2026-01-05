@@ -21,13 +21,14 @@ conda create -name climatepredenv
 
 #### **Optional: create virtual environment with python and libraries**
 
-****
 
 ```bash
-conda create --name data_science_env python numpy pandas matplotlib seaborn scipy scikit-learn  plotly jupyterlab bokeh xgboost lightgbm tensorflow pytorch 
+conda create --name climatepredenv python numpy pandas matplotlib seaborn scipy scikit-learn plotly jupyterlab
 ```
 
-
+```bash
+conda create --name climatepredenv python numpy pandas matplotlib seaborn scipy scikit-learn plotly jupyterlab bokeh xgboost lightgbm tensorflow pytorch 
+```
 
 ## License
 
